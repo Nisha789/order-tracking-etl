@@ -2,7 +2,6 @@
 
 This project implements an **order-tracking ETL process** using **Databricks** and **GCP (Google Cloud Platform) buckets** to handle incremental loads efficiently. The entire process is automated using **Databricks Workflows**, triggered by the arrival of new files in the staging bucket. 
 
----
 
 ## Features
 - **Event-Driven Automation**: Workflows are triggered automatically when a new file arrives in the staging bucket.
@@ -11,7 +10,6 @@ This project implements an **order-tracking ETL process** using **Databricks** a
 - **Archival Process**: Moves processed files to an archive bucket to maintain storage hygiene.
 - **Delta Lake Integration**: Leverages Delta Lake for ACID-compliant data handling and schema enforcement.
 
----
 
 ## Project Workflow
 
@@ -36,14 +34,12 @@ This project implements an **order-tracking ETL process** using **Databricks** a
    - Monitor the staging bucket for file arrival.  
    - Trigger the `stage-load-data.ipynb` and `target_data_load.ipynb` notebooks sequentially.
 
----
 
 **Technologies Used**
 - **Databricks:** For notebook development, workflow automation, and event-based triggering.
 - **GCP Buckets:** For staging and archiving files.
 - **Delta Lake:** For reliable, ACID-compliant data storage.
 
----
 
 **How to Run**
 1. **Upload Data:** Place the CSV files in the GCP bucket directory tracking_orders/staging_zn.
@@ -56,24 +52,20 @@ This project implements an **order-tracking ETL process** using **Databricks** a
 - Verify that the processed data is available in the Delta tables (stage_zn_new, target_zn_new).
 - Confirm that the source files are moved to the archive directory.
 
----
 
 **Future Enhancements**
 - Add validation and monitoring for data quality.
 - Introduce schema evolution handling.
 - Implement notification systems for process status updates.
 
----
 
 **Contributions**
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your enhancements.
 
----
 
 **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
 
 **Acknowledgments**
 Special thanks to:
