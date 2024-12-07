@@ -52,9 +52,9 @@ This project implements an **order-tracking ETL process** using **Databricks** a
 
 
 **Future Enhancements**
-    - Add validation and monitoring for data quality.
-    - Introduce schema evolution handling.
-    - Implement notification systems for process status updates.
+- Add validation and monitoring for data quality.
+- Introduce schema evolution handling.
+- Implement notification systems for process status updates.
 
 
 **Contributions**
