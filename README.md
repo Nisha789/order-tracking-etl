@@ -68,6 +68,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 **Acknowledgments**
+
 Special thanks to:
 - **Databricks** for providing a robust platform for automation and data processing.
 - **Google Cloud Platform (GCP)** for reliable storage and seamless integration.
