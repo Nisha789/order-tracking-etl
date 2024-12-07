@@ -46,8 +46,8 @@ This project implements an **order-tracking ETL process** using **Databricks** a
 2. **Workflow Automation:**
     - The Databricks Workflow automatically triggers the notebooks based on file arrival in the staging bucket.
     - The notebooks are executed in the following order:
-        stage-load-data.ipynb
-        target_data_load.ipynb
+    stage-load-data.ipynb
+    target_data_load.ipynb
 3. **Check Results:**
     - Verify that the processed data is available in the Delta tables (stage_zn_new, target_zn_new).
     - Confirm that the source files are moved to the archive directory.
